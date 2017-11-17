@@ -1,9 +1,9 @@
-.CardChild{
+.CardDogChild{
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 20%;
 }
 
-.Card-state, .Card-date, .Card-place, .Card-description{
+.CardDog-state, .CardDog-date, .CardDog-place, .CardDog-description{
     text-align: left;
 }

@@ -6,20 +6,20 @@ class CardDog extends Component {
 
     render(){
         return(
-            <Card className='CardChild'
+            <Card className='CardDogChild'
             header={<CardTitle image='./static/sample-1.jpg'>{this.props.title}</CardTitle>}
             actions={[<a href='#'>+ información</a>]}>
 
-            <div className="Card-state">
+            <div className="CardDog-state">
                {this.props.state}
             </div>
-            <div className="Card-place">
+            <div className="CardDog-place">
                {this.props.place}
             </div>
-            <div className="Card-date">
+            <div className="CardDog-date">
                {this.props.date}
             </div>
-            <div className="Card-description">
+            <div className="CardDog-description">
                {this.props.description}
             </div>
             </Card>
