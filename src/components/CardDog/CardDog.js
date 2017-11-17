@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import {Card,CardTitle} from 'react-materialize'
-import './CardPublish.css'
+import './CardDog.css'
 
-class CardPublish extends Component {
+class CardDog extends Component {
 
     render(){
         return(
-        <div className="CardPublish">
             <Card className='CardChild'
             header={<CardTitle image='./static/sample-1.jpg'>{this.props.title}</CardTitle>}
             actions={[<a href='#'>+ información</a>]}>
@@ -24,15 +23,9 @@ class CardPublish extends Component {
                {this.props.description}
             </div>
             </Card>
-            <Card className='CardChild'
-            header={<CardTitle image='./static/sample-1.jpg'>Card Title</CardTitle>}
-            actions={[<a href='#'>+información</a>]}>
-            A un abuelito se le perdió el perrito..
-            </Card>
-        </div>
         );
     }
 
 }
 
-export default CardPublish;
+export default CardDog;

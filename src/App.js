@@ -20,6 +20,7 @@ class App extends Component {
         <Button waves='light'>EDIT ME<Icon left>save</Icon></Button>
 
         <CardPublish> </CardPublish>
+
       </div>
 
     );
